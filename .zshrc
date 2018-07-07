@@ -21,3 +21,5 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -Uz promptinit
 promptinit
 prompt fire
+
+source ~/.aliases
