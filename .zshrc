@@ -20,6 +20,14 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 autoload -Uz promptinit
 promptinit
+
+# MY SETTINGS
+
+# Prompt Theme
 prompt fire
 
+# Include aliases
 source ~/.aliases
+
+# select emacs keymap for command line editing
+bindkey -e
