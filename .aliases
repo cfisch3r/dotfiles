@@ -1,1 +1,2 @@
 alias gst='git status'
+alias -s pdf=open -a Preview
