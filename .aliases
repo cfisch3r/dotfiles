@@ -1,2 +1,4 @@
 alias gst='git status'
 alias -s pdf=open -a Preview
+alias -s jpg=open -a Preview
+alias -s png=open -a Preview

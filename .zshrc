@@ -31,3 +31,9 @@ source ~/.aliases
 
 # select emacs keymap for command line editing
 bindkey -e
+
+#substring search in history
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
