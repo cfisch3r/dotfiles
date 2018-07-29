@@ -37,3 +37,6 @@ source /usr/local/share/zsh-history-substring-search/zsh-history-substring-searc
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+#add user bin directory to path
+path=(~/bin $path)
+export PATH
